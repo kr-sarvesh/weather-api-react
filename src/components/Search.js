@@ -20,7 +20,7 @@ function Search({ onSearchChange }) {
               //label is what is displayed in the dropdown
               label: `${city.name} ${city.countryCode}`,
               //value is what is returned when an option is selected
-              value: `value is ${city.latitude} ${city.longitude}`,
+              value: `${city.latitude} ${city.longitude}`,
             }
           }),
         }
